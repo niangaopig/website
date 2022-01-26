@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: '先占个位置',
-                //to: 'https://www.docusaurus.cn/',
+                to: 'https://www.docusaurus.cn/',
               },
             ],
           },
