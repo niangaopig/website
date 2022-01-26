@@ -76,6 +76,15 @@ const config = {
             ],
           },
           {
+            title: '先占个位置',
+            items: [
+              {
+                label: '先占个位置',
+                //to: 'https://www.docusaurus.cn/',
+              },
+            ],
+          },
+          {
             title: '联系',
             items: [
                             {
@@ -88,6 +97,7 @@ const config = {
               },
             ],
           },
+          
           {
             title: '友情链接',
             items: [
