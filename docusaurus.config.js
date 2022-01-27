@@ -39,6 +39,17 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [//添加第二个博客
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'leetcode',
+        routeBasePath: 'leetcode',
+        path: './leetcode',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -55,6 +66,7 @@ const config = {
             position: 'left',
             label: '笔记',
           },
+          {to: '/leetcode', label: '刷题', position: 'left'},//添加第二个博客
           {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/niangaopig',
