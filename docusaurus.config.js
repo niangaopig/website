@@ -82,17 +82,29 @@ const config = {
             title: '笔记',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Html',
+                to: '/docs/html',
+              },
+              {
+                label: 'CSS',
+                to: '/docs/css',
+                },
+              {
+                label: 'JavaScript',
+                to: '/docs/javascrpit',
               },
             ],
           },
           {
-            title: '先占个位置',
+            title: '刷刷刷刷题',
             items: [
               {
-                label: '先占个位置',
-                to: 'https://www.docusaurus.cn/',
+                label: 'LeetCode 热题 HOT 100',
+                to: 'https://leetcode-cn.com/problem-list/2cktkvj/',
+              },
+              {
+                label: '复习题',
+                to: 'https://www.ngpig.cn/leetcode',
               },
             ],
           },
@@ -115,11 +127,11 @@ const config = {
             items: [
               {
                 label: 'Docusaurus',
-                to: 'https://www.docusaurus.cn/',
+                href: 'https://www.docusaurus.cn/',
               },
                {
                 label: 'MDN',
-                to: 'https://developer.mozilla.org/',
+                href: 'https://developer.mozilla.org/zh-CN/',
               },
             ],
           },
@@ -130,6 +142,14 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+/*       announcementBar: {
+      id: 'support_us',
+      content:
+        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: false,
+    }, */ //公告条
     }),
 };
 
