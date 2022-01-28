@@ -117,6 +117,10 @@ const config = {
                 label: 'Docusaurus',
                 to: 'https://www.docusaurus.cn/',
               },
+               {
+                label: 'MDN',
+                to: 'https://developer.mozilla.org/',
+              },
             ],
           },
         ],
